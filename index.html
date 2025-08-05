@@ -6,14 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
+    <title>BundlePackify</title>
 
 </head>
 
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        <!-- <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a> -->
+
+        <section class="product-grid" id="product-grid">
+        </section>
+
+         <aside class="bundle-sidebar">
+            <h2>Bundle Summary</h2>
+
+            <div class="progress">
+                <p><span id="selected-count">0</span>/3 items added</p>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="selected-items" id="selected-items"></div>
+
+             <div class="pricing">
+                <p>Subtotal: ₹<span id="subtotal">0</span></p>
+                <p id="discount-section" style="display:none;">Discount (30%): -₹<span id="discount">0</span></p>
+                <p><strong>Total: ₹<span id="total">0</span></strong></p>
+            </div>
+
+            <button id="add-to-cart" disabled>Add Bundle to Cart</button>
+        </aside>
+    </div>
+
+
+
+    <footer class="footer">
+                <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    </footer>
+
+
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
