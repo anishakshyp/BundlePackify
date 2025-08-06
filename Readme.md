@@ -1,56 +1,46 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# BundlePackify - Static Bundle Builder UI
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+This project was part of **Marmeto's Coding Assessment (L-2 Level)**.
 
-## Getting Started
+# Objective
+Recreate the **"Bundle Builder"** section based on the given [Figma Design](https://www.figma.com/design/zvKT1JhCZX5DbjSwfTO1AT/Frontend-assessment?node-id=0-1&t=0fs9WkgtpXVfE7j6-1).
+ 
+The goal is to mimic the behavior and layout of a Shopify custom bundle section, allowing users to select products, track bundle progress, view discount calculations, and proceed with the selection.
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+## ✨ Features
 
-2. **Navigate to Project Directory:**
-
-3. **Explore the Structure:**
-Take a moment to review the project structure:
-
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
-
-## Development and Testing
-
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
-
+- 6 product cards with title, image, and price
+- Toggle-style “Add to Bundle” buttons
+- Sidebar showing:
+  - Progress bar (e.g., `2/3 products added`)
+  - Selected products with quantity and remove options
+  - Subtotal and 30% discount calculation
+  - CTA button enabled only after 3 items are selected
+- Responsive layout (mobile & desktop)
+- Clean and semantic HTML5
+- No page scroll inside sidebar — full layout fits on screen
 
 ---
-## Updated Submission Guidelines
-
-1. Fill out the form provided at [this link](https://forms.gle/Ubnfd2LGGHgwGorp6).
-2. Provide the GitHub repository link of your project in the designated field.
-3. Share the hosted link of your project in the appropriate field.
 
 
-## Important Notes
 
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
+## 🧪 How to Run
 
-Good luck! We look forward to reviewing your submission.
+1. **Clone the Repository :**
+
+```bash
+git clone https://github.com/anishakshyp/bundlepackify.git
+cd bundlepackify
+```
+
+2. **Open in Browser :**
+
+Simply open [index.html]() in any browser to view the project.
+
+# 🔗 Submission Info
+GitHub Repository : https://github.com/anishakshyp/bundlepackify
+
+Hosted on Vercel: [BundlePackify](https://bundle-packify.vercel.app/)
+
+This project is submitted as part of a coding assessment. You are free to explore and learn from the code.
+
