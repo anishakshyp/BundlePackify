@@ -34,17 +34,21 @@ function renderProducts() {
         const card = document.createElement("div");
         card.className = "product-card";
 
-        const buttonText = isSelected ? " Added to the Bundle ✓" : "Add to Bundle";
+        const buttonText = isSelected ? "Added to the Bundle" : "Add to Bundle";
+        const buttonIcon = isSelected
+            ? "assets/Icons/Check.svg"
+            : "assets/Icons/Plus.svg";
         const buttonClass = isSelected ? "select-btn selected" : "select-btn";
 
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" />
-            <h3>${product.name}</h3>
-            <p>₹${product.price}</p>
-            <button class="${buttonClass}" data-id="${product.id}">
-                <span>${buttonText}</span>
-            </button>
-        `;
+    <img src="${product.image}" alt="${product.name}" />
+    <h3>${product.name}</h3>
+    <p>$${product.price}</p>
+    <button class="${buttonClass}" data-id="${product.id}">
+        <span>${buttonText}</span>
+        <img src="${buttonIcon}" alt="icon" class="icon" />
+    </button>
+`;
 
         productGrid.appendChild(card);
     });
@@ -64,7 +68,7 @@ function attachSelectHandlers() {
             }
 
             updateSidebar();
-            renderProducts(); 
+            renderProducts();
         });
     });
 }
@@ -98,7 +102,7 @@ function updateSidebar() {
             <img src="${product.image}" alt="${product.name}">
             <div>
                 <p>${product.name}</p>
-                <p>₹${product.price}</p>
+                <p>$${product.price}</p>
                 <div class="quantity-controls">
                     <button class="decrease" data-id="${product.id}">-</button>
                     <span>${quantity}</span>
