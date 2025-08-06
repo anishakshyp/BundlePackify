@@ -7,7 +7,7 @@ Recreate the **"Bundle Builder"** section based on the given [Figma Design](http
  
 The goal is to mimic the behavior and layout of a Shopify custom bundle section, allowing users to select products, track bundle progress, view discount calculations, and proceed with the selection.
 
-## ✨ Features
+## Features
 
 - 6 product cards with title, image, and price
 - Toggle-style “Add to Bundle” buttons
@@ -24,7 +24,7 @@ The goal is to mimic the behavior and layout of a Shopify custom bundle section,
 
 
 
-## 🧪 How to Run
+## How to Run
 
 1. **Clone the Repository :**
 
